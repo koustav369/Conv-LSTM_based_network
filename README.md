@@ -6,7 +6,9 @@ For each of the meteorological variables, the daily spatial maps over the *3652*
 With X and Y ready, they are primed for input into deep learning models, setting the stage for rigorous regression-based soil moisture forecast. The objective is to forecast soil moisture based on sequential meteorological data, a task which naturally lends itself to a **recurrent convolutional network** architecture.
 
 **Initialize ConvLSTM model with layers:**
+
 **1.	ConvLSTM with 64 filters, 3×3 kernel, return sequences=True**
+
 **2.	Batch Normalization**
 **3.	ConvLSTM with 64 filters, 3×3 kernel, return sequences=True**
 **4.	Batch Normalization**
