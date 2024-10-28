@@ -1,4 +1,4 @@
-# Conv-LSTM_based_network
+# Conv LSTM based network for soil moisture forecasting
 
 To start with pre-processing steps were performed wherein a procedure termed as re-gridding is employed, where the global data, set in its default spatial resolution, is meticulously adjusted to align with the spatial precision of the target Indian map, ensuring uniformity across the dataset. Subsequently, a Clipping operation is undertaken. Using a predefined logical array, which is meticulously mapped to the shapefile of basin regions within India, the re-gridded data is precisely clipped. Such an approach ensures that our dataset is distinctly confined to the geographical contours of the Indian subcontinent, paving the way for nuanced soil moisture forecasts that resonate with the region’s distinctive climatic attributes.
 
